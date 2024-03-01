@@ -1,0 +1,391 @@
+.container {
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    min-height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.numero {
+    margin: 20px;
+    padding: 20px;
+    align-self: flex-end;
+    box-shadow: 5px 5px 10px 0px #dfe027;
+}
+
+.bancaxi {
+    color: #dfe027;
+    font-size: 40px;
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.saldo {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    align-self: center;
+    box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    font-style: normal;
+    margin-top: 0px;
+    font-weight: 800;
+    padding-top: 50px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    padding-left: 50px;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: 0px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+.text2 {
+    padding: 20px;
+    box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    font-style: normal;
+    font-weight: 800;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+}
+
+.username {
+    font-size: 3vh;
+    align-self: center;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 2vh;
+    padding-top: 5vh;
+    border-color: #dfe027;
+    border-width: 1px;
+    margin-right: 2vh;
+    padding-left: 15vh;
+    padding-right: 15vh;
+    padding-bottom: 5vh;
+    border-top-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 5px;
+}
+
+.container1 {
+    flex: 0 0 auto;
+    width: auto;
+    height: 174px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.container2 {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.numero1 {
+    flex: 0;
+    font-size: 30px;
+    align-self: center;
+    box-shadow: 5px 10px 10px 0px #dfe027;
+    border-color: #dfe027;
+    border-bottom-width: 6px;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+
+.valor {
+    flex: 0;
+    font-size: 30px;
+    align-self: center;
+    box-shadow: 5px 10px 10px 0px #dfe027;
+    border-color: #dfe027;
+    border-bottom-width: 6px;
+    border-top-left-radius: var(--dl-radius-radius-radius8);
+    border-top-right-radius: var(--dl-radius-radius-radius8);
+    border-bottom-left-radius: var(--dl-radius-radius-radius8);
+    border-bottom-right-radius: var(--dl-radius-radius-radius8);
+}
+
+.actions {
+    width: 100%;
+    height: 223px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.comunicado {
+    color: rgb(0, 0, 0);
+    padding: 40px;
+    font-size: 35px;
+    align-self: center;
+    box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    font-style: normal;
+    margin-top: var(--dl-space-space-sixunits);
+    font-weight: 800;
+    padding-top: 50px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    padding-left: 50px;
+    border-radius: var(--dl-radius-radius-radius8);
+    margin-bottom: var(--dl-space-space-sixunits);
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+
+
+i{margin-left: 1rem;
+    margin-right: 1rem}
+
+.comunicadodisplay{visibility: hidden;}
+
+::placeholder {
+    text-align: center; 
+    font: 1.25rem;}
+
+.code-value {
+        font-size: 1.5rem;
+        box-shadow: 5px 5px 10px 5px #dfe027;
+        font-style: normal;
+        font-weight: 800;
+        border-color: var(--dl-color-gray-black);
+        border-width: 0px;
+        padding-left: 1rem;
+        border-radius: var(--dl-radius-radius-radius4);
+        padding-right: 1rem;
+        padding-bottom: 1rem;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: var(--dl-radius-radius-radius8);
+        border-bottom-right-radius: var(--dl-radius-radius-radius8);}
+.code-valuedisplay{visibility: hidden;}
+
+.grp-retornar {
+    flex: 0 0 auto;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: relative;
+    align-items: flex-start;
+}
+
+.sacar {
+    color: rgb(0, 0, 0);
+    padding: 2 rem;
+    font-size: 2rem;
+    align-self: center;
+    box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    transition: 0.3s;
+    font-weight: 800;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    border-radius: var(--dl-radius-radius-radius8);
+}
+
+.retornar {
+    top: -20px;
+    color: rgb(0, 0, 0);
+    right: 0px;
+    position: absolute;
+    font-size: 35px;
+    align-self: center;
+    box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    font-style: normal;
+    transition: 0.3s;
+    font-weight: 800;
+    padding-top: 50px;
+    border-color: var(--dl-color-gray-black);
+    border-width: 0px;
+    padding-left: 70px;
+    border-radius: var(--dl-radius-radius-radius8);
+    padding-right: 70px;
+    padding-bottom: 50px;
+}
+
+@media(max-width: 1600px) {
+    .numero {
+        margin: 1rem;
+        box-shadow: rgb(223, 224, 39) 5px 5px 10px 0px;
+    }
+
+    .bancaxi {
+        font-size: 3rem;
+        align-self: flex-start;
+    }
+
+    .saldo {
+        align-self: flex-start;
+    }
+
+    .text2 {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .username {
+        padding: 1rem;
+        font-size: 1.5rem;
+        font-style: normal;
+        font-weight: 700;
+        margin-left: 2rem;
+        margin-right: 2rem;
+    }
+
+    .select {
+        flex: 0;
+        width: auto;
+        margin: 1rem;
+        padding: 1rem;
+        align-self: center;
+        box-shadow: 5px 5px 10px 5px #dfe027;
+        border-color: var(--dl-color-gray-black);
+        border-width: 0px;
+        border-radius: var(--dl-radius-radius-radius4);
+        border-bottom-left-radius: var(--dl-radius-radius-radius4);
+        border-bottom-right-radius: var(--dl-radius-radius-radius4);
+    }
+
+    .container2 {
+        height: 174px;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .numero1 {
+        font-size: 2rem;
+        align-self: center;
+        box-shadow: 5px 2px 10px 10px #dfe027;
+        margin-top: 3vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-bottom-width: 0rem;
+    }
+
+    .valor {
+        font-size: 2rem;
+        align-self: center;
+        box-shadow: 5px 2px 10px 0px #dfe027;
+        margin-top: 3vh;
+        padding-left: 1rem;
+        padding-right: 1rem;
+        border-bottom-width: 0.5rem;
+    }
+
+    .actions {
+        height: 168px;
+    }
+
+    .comunicado {
+        padding: 3rem;
+        font-size: 2rem;
+        margin-top: 4vh;
+        margin-bottom: 4vh;
+    }
+
+    .grp-retornar {
+        height: 133px;
+    }
+
+    .sacar {
+        color: rgb(0, 0, 0);
+        padding: 2rem;
+        font-size: 2rem;
+        box-shadow: 7px 7px 40px 20px rgb(223, 224, 39);
+        font-style: normal;
+        font-weight: 800;
+        padding-top: 2vh;
+        padding-left: 2vh;
+        padding-right: 2vh;
+        padding-bottom: 2vh;
+    }
+
+    .retornar {
+        top: 0px;
+        color: rgb(0, 0, 0);
+        right: 0px;
+        padding: 2rem;
+        position: absolute;
+        font-size: 2rem;
+        align-self: center;
+        box-shadow: rgb(223, 224, 39) 7px 7px 40px 20px;
+        font-style: normal;
+        font-weight: 800;
+    }
+}
+
+@media(max-width: 1200px) {
+    .text2 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 991px) {
+    .text2 {
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+    }
+
+    .username {
+        margin-top: 0rem;
+        margin-left: 2rem;
+        margin-right: 2rem;
+        margin-bottom: 0rem;
+    }
+
+    .retornar {
+        padding: 2rem;
+    }
+}
+
+@media(max-width: 479px) {
+    .numero {
+        padding-top: 2rem;
+        padding-left: 2 rem;
+        padding-right: 2 rem;
+        padding-bottom: 2rem;
+    }
+
+    .saldo {
+        padding: 1rem;
+    }
+
+    .text2 {
+        margin: 1vh;
+        padding: 1rem;
+    }
+
+    .username {
+        padding: 2rem;
+        font-size: 1rem;
+    }
+
+    .numero1 {
+        font-size: 1rem;
+    }
+
+    .valor {
+        font-size: 1rem;
+    }
+
+    .comunicado {
+        padding: 1rem;
+        font-size: 1rem;
+    }
+
+    .sacar {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+
+    .retornar {
+        padding: 2rem;
+    }
+}
